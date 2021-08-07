@@ -1,4 +1,11 @@
 import { Component } from "react"
+import {Route, Redirect, BrowserRouter} from "react-router-dom";
+import Nav from '../Nav';
+import About from '../About';
+import Contact from '../Contact';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
+
 
 class Header extends Component {
     render(){
@@ -14,7 +21,7 @@ class Header extends Component {
                     <Route path= "/portfolio" Component={Portfolio}/>
                     <Route path= "/about" Component={About}/>
                     <Route path= "/contact" Component= {Contact}/>
-                    <Route path= "resume" Component= {Resume}/>
+                    <Route path= "/resume" Component= {Resume}/>
                 </div>
             </BrowserRouter>
         )
