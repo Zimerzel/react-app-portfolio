@@ -7,8 +7,8 @@ main {
   --primary: #8c54ff;
   --secondary: #f3a847;
   --tertiary: #b12704;
-  --light: #fafafa;
-  --dark: #000000;
+  --light: #b1adad;
+  --dark: #cec9c9;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -288,4 +288,9 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+#card-info {
+  background-color: #8c54ff;
+  color: #111111;
 }

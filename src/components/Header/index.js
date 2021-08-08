@@ -1,4 +1,4 @@
-import { Component } from "react"
+import React, { Component } from "react"
 import {Route, Redirect, BrowserRouter} from "react-router-dom";
 import Nav from '../Nav';
 import About from '../About';
@@ -12,16 +12,16 @@ class Header extends Component {
         return(
             <BrowserRouter basename='ZachImerzelWebDev'>
                 <div>
-                    <a href= "https://github.com/Zimerzel/react-app-portfolio"><img src="" alt= "" class= "" id="" /></a>
+                    <a href= "https://github.com/Zimerzel/react-app-portfolio"><img src="" alt= "" className= "" id="" /></a>
                     <Nav/>
                 </div>
             
                 <div className="pages">
                     <Route exact path="/" render= {() => (<Redirect to="/portfolio"/>)} />
-                    <Route path= "/portfolio" Component={Portfolio}/>
-                    <Route path= "/about" Component={About}/>
-                    <Route path= "/contact" Component= {Contact}/>
-                    <Route path= "/resume" Component= {Resume}/>
+                    <Route path= "/portfolio" component={Portfolio}/>
+                    <Route path= "/about" component={About}/>
+                    <Route path= "/contact" component= {Contact}/>
+                    <Route path= "/resume" component= {Resume}/>
                 </div>
             </BrowserRouter>
         )
