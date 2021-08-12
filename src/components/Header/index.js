@@ -5,6 +5,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
+import heroImage from '../../assets/images/hero-bg.jpg'
 
 
 class Header extends Component {
@@ -12,18 +13,20 @@ class Header extends Component {
         return(
             <BrowserRouter basename='ZachImerzelWebDev'>
                 <div>
-                    <a href= "https://github.com/Zimerzel/react-app-portfolio"><img src="" alt= "" className= "" id="" /></a>
+                    <a href= "https://github.com/Zimerzel/react-app-portfolio/"><img src={heroImage} /></a>
                     <Nav/>
                 </div>
             
                 <div className="pages">
-                    <Route exact path="/" render= {() => (<Redirect to="/portfolio"/>)} />
+                    <Route exact path="/" render= {() => (<Redirect to="/about"/>)} />
                     <Route path= "/portfolio" component={Portfolio}/>
                     <Route path= "/about" component={About}/>
                     <Route path= "/contact" component= {Contact}/>
                     <Route path= "/resume" component= {Resume}/>
                 </div>
+
             </BrowserRouter>
+
         )
     }
 
