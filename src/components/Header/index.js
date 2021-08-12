@@ -12,18 +12,19 @@ class Header extends Component {
     render(){
         return(
             <BrowserRouter basename='ZachImerzelWebDev'>
-                <div>
-                    <a href= "https://github.com/Zimerzel/react-app-portfolio/"><img src={heroImage} /></a>
-                    <Nav/>
-                </div>
-            
-                <div className="pages">
-                    <Route exact path="/" render= {() => (<Redirect to="/about"/>)} />
-                    <Route path= "/portfolio" component={Portfolio}/>
-                    <Route path= "/about" component={About}/>
-                    <Route path= "/contact" component= {Contact}/>
-                    <Route path= "/resume" component= {Resume}/>
-                </div>
+                <section id="header">
+                    <div>
+                        <a href= "https://github.com/Zimerzel/react-app-portfolio/"><img src={heroImage} id="hero"/></a>
+                        <h1 id="nav-title">Zach Imerzel</h1><Nav/>
+                    </div>
+                    <div className="pages">
+                        <Route exact path="/" render= {() => (<Redirect to="/about"/>)} />
+                        <Route path= "/portfolio" component={Portfolio}/>
+                        <Route path= "/about" component={About}/>
+                        <Route path= "/contact" component= {Contact}/>
+                        <Route path= "/resume" component= {Resume}/>
+                    </div>
+                </section>
 
             </BrowserRouter>
 

@@ -12,13 +12,15 @@ function Portfolio () {
     return (
       <section>
         <div className="project">
-          <h1 className="title">Portfolio</h1>
+          <h2 className="title">Portfolio</h2>
         </div>
-          <portfolioCards id="cards-data">
+        <div id="card-container">
+          <portfolioCards id="card-items">
             {portfolio.map((project) =>(
               <ProjectCards key={project.id} name={project.name} image={project.image} github={project.github} deploy= {project.deploy} topics= {project.topics} />
             ))}
           </portfolioCards>
+        </div>
       </section>
     
     );

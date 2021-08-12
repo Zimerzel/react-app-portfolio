@@ -1,23 +1,140 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
 
-h1 {
-  margin: auto 30px; 
-  padding: 10px;
-  color: var(--onyx);
-  font-weight: bold;
+p {
+  display: inline-flex;  
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 15px;
+  font-size: 1.4vw;
+  font-weight: 500;
+  padding: 20px;
+}
+
+h2 {
+  display:flex;  
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 14px;
+  font-size: 1.55vw;
+  font-weight: 500;
+  padding: 20px;
+  color: lightslategrey;
 }
 
 #hero {
   background-image:url("../src/assets/images/hero-bg.jpg");
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  max-height: 175px;
+  max-width: 100%;
+  height: fit-content;
+  width: 100%;
 }
 
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+#nav {
+  display: inline;
+  font-size: large;
+  align-content: center;
+  margin: 7px 0;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  float: right;
+}
+
+#nav-title {
+ display: inline;
+ position: relative; bottom: 40px;
+ color: white;
+ font-size: 4.0vw;
+}
+
+#nav a {
+  display: inline;
+  padding: 10px 15px;
+  font-weight: Medium;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: rgb(3, 3, 3);
+  font-size: 14px;
+  font-size: 1.55vw;
+}
+
+#nav a.active{
+  color:rgb(66, 180, 21);
+  background: rgb(255, 255, 255);
+  opacity: 100%;
+}
+
+#nav a:hover {
+  background: rgb(181, 186, 190);
+  color: white;
+  border-radius: 15px;
+  font-weight:700;
+}
+
+#nav-title {
+  position: relative; bottom: 70px
+}
+
+/*NAV/HEADER CSS END */
+
+#footer-text {
+  font-size: 14px;
+  font-size: 1.2vw;
+}
+
+/*END OF FOOTER CSS*/
+
+/* #about-title {
+  font-size: 14px;
+  font-size: 1.8vw;
+} */
+#about-text{
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+#photo {
+  border-radius: 100px;
+  border-color: rgb(0, 0, 0);
+  display:flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+#aside-div {
+  position: relative;
+  right: 80px;
+  padding:0px 0px 20px 80px;
+  height: 100%;
+  
+}
+
+aside {
+  float: right;
+  display: inline;
+  position: relative;bottom: 150px; right: 40px;
+  width: 30%;
+  height: 100%;
+  background-color: lightslategrey;
+
+}
+
+/*ABOUT CSS END */
+
+#card-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .card {
   background-color: var(--platinum);
@@ -26,51 +143,49 @@ h1 {
   margin: 2rem;
   position: relative;
   width: 400px;
-  box-shadow: 0 2px 2px var(--onyx), 0 6px 12px var(--onyx);
+  box-shadow:10px 5px 5px grey;
 }
 
-#cards-data {
-  display: grid;
- 
-  grid-template-columns: repeat(3, 1fr);
- 
-  grid-auto-rows: auto;
- 
-  grid-gap: 1rem;
+.card:hover {
+  opacity: 80%;
+
 }
 
-#cardContainer:hover {
-  opacity: 70%;
+#card-img {
+  max-width: 100%;
+  max-height: 65%;
 }
 
-#nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  font-size: large;
-  align-content: center;
-  margin: 7px 0;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-#nav a {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px 15px;
-  font-weight: Medium;
-  font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+#card-title {
+  font-size: 14px;
+  font-size: 1.5vw;
   text-align: center;
-  color: rgb(3, 3, 3);
-
 }
 
-#nav a.active{
-  color:rgb(66, 180, 21);
-  background: rgb(255, 255, 255);
+#card-topics {
+  font-size: 14px;
+  font-size: 1.0vw;
+  text-align: center;
 }
 
-#nav .NavLink {
-  padding: 100px;
+#project-icon {
+  max-height: 50%;
+}
+
+/*END OF PORTFOLIO CSS*/
+
+#contact-form-main {
+width: 80%;
+margin: 0 auto;
+align-content: center;
+}
+
+/*END OF CONTACT CSS*/
+
+#resume-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding:20px 20px;
 }

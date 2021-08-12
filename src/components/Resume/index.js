@@ -1,18 +1,19 @@
 import React from 'react'; 
+import Resumejpg from '../../assets/images/resume.jpg'
 
 function Resume() {
 
 return(
 <section>
-    <h1 className="resume">resume: Zach Imerzel</h1>
+    <h2 className="resume">Resume</h2>
         <hr></hr>
         <div>
+            <div>
+                <img src={Resumejpg} alt="resume.pdf" id="resume-img"/>
+            </div>
             <div> 
                 <p>
                 <a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/"><img src="https://img.icons8.com/color/48/000000/linkedin-2.png" alt="Zach Imerzel LinkedIn"/></a>
-                </p>
-                <p>
-                Download my full <a href="resume.jpg" download= "Zach Imerzel's Resume">resume</a>
                 </p>
             </div>
         </div>
