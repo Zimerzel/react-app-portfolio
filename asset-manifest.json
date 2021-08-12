@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-App-Portfolio/static/css/main.ecbbfdeb.chunk.css",
+    "main.js": "/React-App-Portfolio/static/js/main.4455c23a.chunk.js",
+    "main.js.map": "/React-App-Portfolio/static/js/main.4455c23a.chunk.js.map",
+    "runtime-main.js": "/React-App-Portfolio/static/js/runtime-main.34d9f5c2.js",
+    "runtime-main.js.map": "/React-App-Portfolio/static/js/runtime-main.34d9f5c2.js.map",
+    "static/css/2.4be38407.chunk.css": "/React-App-Portfolio/static/css/2.4be38407.chunk.css",
+    "static/js/2.855f94af.chunk.js": "/React-App-Portfolio/static/js/2.855f94af.chunk.js",
+    "static/js/2.855f94af.chunk.js.map": "/React-App-Portfolio/static/js/2.855f94af.chunk.js.map",
+    "index.html": "/React-App-Portfolio/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/React-App-Portfolio/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.ecbbfdeb.chunk.css.map": "/React-App-Portfolio/static/css/main.ecbbfdeb.chunk.css.map",
+    "static/js/2.855f94af.chunk.js.LICENSE.txt": "/React-App-Portfolio/static/js/2.855f94af.chunk.js.LICENSE.txt",
+    "static/media/LinkedIn.1fa7f927.jpg": "/React-App-Portfolio/static/media/LinkedIn.1fa7f927.jpg",
+    "static/media/index.css": "/React-App-Portfolio/static/media/hero-bg.c28ee7cb.jpg",
+    "static/media/resume.db977f1c.jpg": "/React-App-Portfolio/static/media/resume.db977f1c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34d9f5c2.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.855f94af.chunk.js",
+    "static/css/main.ecbbfdeb.chunk.css",
+    "static/js/main.4455c23a.chunk.js"
+  ]
+}
