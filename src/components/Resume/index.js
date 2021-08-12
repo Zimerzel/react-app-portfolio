@@ -12,7 +12,7 @@ return(
                 <a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/"><img src="https://img.icons8.com/color/48/000000/linkedin-2.png" alt="Zach Imerzel LinkedIn"/></a>
                 </p>
                 <p>
-                Download my full <a href="https://github.com/Zimerzel/react-app-portfolio/blob/main/src/assets/resume/resume.jpg" download= "Zach Imerzel's Resume">resume</a>
+                Download my full <a href="resume.jpg" download= "Zach Imerzel's Resume">resume</a>
                 </p>
             </div>
         </div>
