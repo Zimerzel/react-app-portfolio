@@ -189,3 +189,7 @@ align-content: center;
   width: 100%;
   padding:20px 20px;
 }
+
+#img-download {
+  visibility: hidden;
+}
