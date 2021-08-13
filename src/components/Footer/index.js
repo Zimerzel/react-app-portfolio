@@ -11,7 +11,7 @@ function Footer() {
           | LinkedIn |
         </a>{" "}
         <a href="https://github.com/Zimerzel">| Github |</a>{" "}
-        <a href= "https://docdro.id/g8dL6kd" download>
+        <a href= "https://docdro.id/g8dL6kd" target="_blank" download>
           | Download Resume
         </a>
       </p>
