@@ -42,10 +42,10 @@ export default[
     },
     {
         "id": 6,
-        "name": "Deep-Thoughts",
-        "image": "https://courses.bootcampspot.com/courses/732/files/687403/preview",
-        "deploy": "N/A",
-        "github": "https://github.com/Zimerzel/deep-thoughts",
+        "name": "Sofa Spud",
+        "image": "https://user-images.githubusercontent.com/79726069/131258624-7afeec32-51c4-4a09-a93d-7b02dbe8a166.PNG",
+        "deploy": " https://protected-earth-79211.herokuapp.com/",
+        "github": "https://github.com/godwinbw/sofa-spud",
         "topics": "JavaScript, HTML, CSS"
     }
 ]
