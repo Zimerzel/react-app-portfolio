@@ -42,16 +42,19 @@ function ContactForm() {
       <form id="contact-form" onSubmit={handleSubmit}>
         <div id="contact-name">
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="name" placeholder="Bill Gates" defaultValue={name} onBlur={handleChange} />
         </div>
         <div id="contact-email">
           <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input type="email" name="email" placeholder="billgates@gmail.com" defaultValue={email} onBlur={handleChange} />
         </div>
         <div id="contact-message">
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea placeholder="Hello! Have you heard of my program Traf-o-Data?"name="message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
+        <p>or at</p>
+        <br></br>
+        <p id="emailtxt">zachary.imerzel@gmail.com</p>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>

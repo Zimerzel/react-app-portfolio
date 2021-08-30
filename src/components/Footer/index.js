@@ -7,6 +7,7 @@ function Footer() {
         <a href=""><img src="" alt="LinkedIn" class="icon"/></a> */}
       <p id="footer-txt">
         &copy; Zach Imerzel |{" "}
+        {/* <a href="mailto:zachary.imerzel@gmail.com"> Email |</a> add later using copy to clipboard*/}
         <a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank">
           | LinkedIn |
         </a>
@@ -15,6 +16,7 @@ function Footer() {
           | Download Resume
         </a>
       </p>
+      <p id="emailtxt"> Zachary.imerzel@gmail.com</p>
     </div>
   );
 }

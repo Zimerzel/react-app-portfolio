@@ -87,6 +87,12 @@ h2 {
   font-size: 1.2vw;
 }
 
+#emailtxt {
+  float: right;
+  text-align: center;
+  font-size: medium;
+}
+
 /*END OF FOOTER CSS*/
 
 /* #about-title {
