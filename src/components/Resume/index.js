@@ -1,5 +1,5 @@
 import React from 'react'; 
-import Resumejpg from '../../assets/images/resume.jpg'
+import Resumejpg from '../../assets/images/resume.png'
 
 function Resume() {
 
@@ -9,7 +9,7 @@ return(
         <hr></hr>
         <div>
             <div>
-                <img src={Resumejpg} alt="resume.pdf" id="resume-img"/>
+                <img src={Resumejpg} alt="resume.png" id="resume-img"/>
             </div>
             <div> 
                 <p>
