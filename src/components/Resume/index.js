@@ -6,7 +6,6 @@ function Resume() {
 return(
 <section>
     <h2 className="resume">Resume</h2>
-        <hr></hr>
         <div>
             <div>
                 <img src={Resumejpg} alt="resume.png" id="resume-img"/>
