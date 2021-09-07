@@ -199,3 +199,10 @@ align-content: center;
 #img-download {
   visibility: hidden;
 }
+
+#resume {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:40px
+}

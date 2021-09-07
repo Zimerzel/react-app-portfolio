@@ -7,7 +7,7 @@ return(
 <section>
     <h2 className="resume">Resume</h2>
         <div>
-            <div>
+            <div id="resume">
                 <img src={Resumejpg} alt="resume.png" id="resume-img"/>
             </div>
             <div> 
