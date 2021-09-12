@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container'
 
 function ProjectCard(props) {
   return (
+    <>
     <Container fluid="true">
       <Row xs={2} md={2} lg={3} className= "g-4">
         <Col xs={2} md={2} lg={2}>
@@ -25,6 +26,7 @@ function ProjectCard(props) {
         </Col>
       </Row>
     </Container>
+  </>
 )}
 
     // <div class="card">

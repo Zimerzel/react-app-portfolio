@@ -4,7 +4,8 @@ import Resumejpg from '../../assets/images/resume.png'
 function Resume() {
 
 return(
-<section>
+    <>
+    <div>
     <h2 className="resume">Resume</h2>
         <div>
             <div id="resume">
@@ -16,7 +17,8 @@ return(
                 </p>
             </div>
         </div>
-</section>
+    </div>
+    </>
 );
 }
 

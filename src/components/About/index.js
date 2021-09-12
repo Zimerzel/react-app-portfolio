@@ -6,6 +6,7 @@ import Github from '../../assets/images/github.png'
 
 function About() {
   return (
+    <>
     <section className="title">
       <h2 id="about-title">About me</h2>
       <img src={ProfilePicture}  alt="Profile-Picture" id="photo" />
@@ -19,6 +20,7 @@ function About() {
         </p>
       </div>
     </section>
+    </>
   );
 }
 

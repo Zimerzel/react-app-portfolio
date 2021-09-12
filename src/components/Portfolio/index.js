@@ -10,7 +10,8 @@ function portfolioCards (props) {
 function Portfolio () {  
 
     return (
-      <section>
+      <>
+      <div>
         <div className="project">
           <h2 className="title">Portfolio</h2>
         </div>
@@ -21,8 +22,8 @@ function Portfolio () {
             ))}
           </portfolioCards>
         </div>
-      </section>
-    
+      </div>
+    </>
     );
   }
 
