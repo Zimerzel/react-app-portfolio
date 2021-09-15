@@ -24,20 +24,6 @@ function About () {
                     <h2>About Me</h2>
                     <br></br>
                     <div className="about-box">
-                        {/* <div className="fogwrapper">
-                            <div id="foglayer_01" class="fog">
-                                <div class="image01"></div>
-                                <div class="image02"></div>
-                            </div>
-                            <div id="foglayer_02" class="fog">
-                                <div class="image01"></div>
-                                <div class="image02"></div>
-                            </div>
-                            <div id="foglayer_03" class="fog">
-                                <div class="image01"></div>
-                                <div class="image02"></div>
-                            </div>
-                        </div> */}
                         <div id="photo">
                             <img src={ProfilePicture}  alt="Profile-Picture" id="photo" />
                         </div>
@@ -46,9 +32,9 @@ function About () {
                         <h3>My Story</h3>
                         <p id="about-text">
                         I lived most of my life in Boulder, CO and was taught to embrace the adventure.
-                        In many ways that mindset has been both a blessing and a curse, it has shown me that theres so much to this amazing place we live and to never settle as theres always another adventure just around the corner. 
-                        That same passion for adventure and finding what feels "right" has inspired me to work in various carrer fields to see what they can offer. Recently I started a Full Stack Javascript program at the University of Texas, and will be looking to have my certificate of completion this September. 
-                        Although I am early in the process of becoming a developer, I can't help but feel that same sense of adventure that I have been looking for in a career! Feel free to browse my work and don't hesistate to reach out with any questions/comments!
+                        In many ways that mindset has been both a blessing and a curse, it has shown me that theres so much to this amazing place we live and to never settle as there is always another adventure just around the corner. 
+                        That same passion for adventure and finding what feels "right" has inspired me to work in various carrer fields to see what they can offer. I have a certificate of completion from the University of Texas for Full Stack Development.
+                         Although I am early in the process of becoming a developer, I can't help but feel that same sense of adventure that I have been looking for in a career! Feel free to browse my work and don't hesistate to reach out with any questions/comments!
                         </p>
                         <br></br>
                         <h3>Skills</h3>

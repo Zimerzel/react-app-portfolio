@@ -13,9 +13,20 @@
   
 }
 
+.footer p{
+  color: white;
+}
+
 #link {
-  color: black;
-  z-index: 3;
+  color: darkolivegreen;
+  display: inline;
+  font-size: 1.5vw;
+}
+
+#link-footer {
+  color: darkolivegreen;
+  display: inline;
+  width: auto;
 }
 
 #hero {
@@ -331,10 +342,66 @@ p {
   object-fit: cover;
 }
 
+.resume{
+  text-align: center;
+}
+
 .resume h2, .contact h2 {
   margin-top: -1px;
 }
 
+.resume-box{
+  padding: 10px;
+  background-color: rgb(240, 239, 239);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  box-shadow:10px 5px 5px grey;
+  border:darkolivegreen 10px solid;
+}
+
+.resume ul li, p, h3, h4, h5, h6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  word-wrap: break-word;
+}
+
+.resume ul li{
+  display: inline;
+  padding: 1px;
+  font-size: 1.2vw;
+}
+
+.resume h3{
+  font-size: 3vw;
+}
+
+.resume h4{
+font-size: 2vw;
+}
+
+.resume h5{
+  font-size: 1.7vw;
+  display: inline;
+  width: 100%;
+}
+
+.resume h6{
+  font-size: 1.4vw;
+}
+
+.resume p{
+  font-size: 1.2vw ;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.resume a {
+  display: inline;
+  width: 100%;
+}
 .container {
 width: 100%;
 }
@@ -407,7 +474,7 @@ width: 100%;
 }
 
 #card-topics {
-  font-size: 16px;
+  font-size: 12px;
   text-align: center;
   color:white;
 }
