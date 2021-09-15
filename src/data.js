@@ -6,7 +6,7 @@ export default[
         "github": "https://github.com/misn0147/meal_match",
         "deploy": "https://misn0147.github.io/meal_match/",
         "github": "https://github.com/misn0147/meal_match",
-        "topics": "HTML, CSS, JavaScript"
+        "topics": "An app to make date night simple."
     },
     {
         "id": 2,
@@ -14,7 +14,7 @@ export default[
         "image": "https://user-images.githubusercontent.com/79726069/127349247-39f9ee3c-380f-4118-b314-c4c68393ddde.PNG",
         "deploy": "https://whispering-refuge-02355.herokuapp.com/",
         "github": "https://github.com/Zimerzel/PWA-Budget-Tracker",
-        "topics": "JavaScript, Express, Mongoose"
+        "topics": "PWA for all your budget needs."
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@ export default[
         "image":"https://user-images.githubusercontent.com/79726069/116834786-46195f00-ab85-11eb-848a-25b745b30e5d.PNG",
         "deploy":"https://zimerzel.github.io/Weather-Today/",
         "github": "https://github.com/Zimerzel/Weather-Today",
-        "topics": "HTML, CSS, JavaScript",
+        "topics": "Need to know the forecast? Look no further..",
     },
     {
         "id": 4,
@@ -30,7 +30,7 @@ export default[
         "image": "https://user-images.githubusercontent.com/79726069/127700891-51e938e1-6f59-4af1-881c-22a7301d0d33.PNG",
         "deploy": "N/A",
         "github": "https://github.com/Zimerzel/Social-Network",
-        "topics": "JavaScript, Mongoose, Express"
+        "topics": "Social network ready for front end implementation."
     },
     {
         "id": 5,
@@ -38,7 +38,7 @@ export default[
         "image": "https://user-images.githubusercontent.com/79726069/124402325-2ae9dd80-dcf5-11eb-9fdb-63dc6830f31d.PNG",
         "deploy": "https://majestic-mammoth-cave-33282.herokuapp.com/dashboard",
         "github": "https://github.com/ewebber283/utgr",
-        "topics": "JavaScript, Handlebars, Express"
+        "topics": "Created to help bring people together through games."
     },
     {
         "id": 6,
@@ -46,6 +46,6 @@ export default[
         "image": "https://user-images.githubusercontent.com/79726069/131258624-7afeec32-51c4-4a09-a93d-7b02dbe8a166.PNG",
         "deploy": " https://protected-earth-79211.herokuapp.com/",
         "github": "https://github.com/godwinbw/sofa-spud",
-        "topics": "JavaScript, HTML, CSS"
+        "topics": "User friendly movie search engine"
     }
 ]

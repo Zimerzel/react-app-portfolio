@@ -8,6 +8,7 @@ import Container from 'react-bootstrap/Container'
 
 function ProjectCard(props) {
   return (
+    <>
     <Container fluid="true">
       <Row xs={2} md={2} lg={3} className= "g-4">
         <Col xs={2} md={2} lg={2}>
@@ -16,7 +17,7 @@ function ProjectCard(props) {
             <Card.Body>
               <Card.Title id="card-title">{props.name}</Card.Title>
               <Card.Text id="card-topics">
-                {props.topics}
+                <p><q>{props.topics}</q></p>
               </Card.Text>
                 <a href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a> 
                 <a href={props.deploy}><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a> 
@@ -25,6 +26,7 @@ function ProjectCard(props) {
         </Col>
       </Row>
     </Container>
+  </>
 )}
 
     // <div class="card">
