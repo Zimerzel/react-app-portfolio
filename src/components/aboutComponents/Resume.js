@@ -21,7 +21,6 @@ return(
                 <p>Phone:(303)902-0091 | Email: zachary.imerzel@gmail.com</p>
                 <div>
                   <ul>
-                    <li><a href="https://zimerzel.herokuapp.com/about" target="_blank" rel="noreferrer" id="link">Portfolio |</a></li>
                     <li><a href="https://github.com/Zimerzel" target="_blank" rel="noreferrer" id="link">Github |</a></li>
                     <li><a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank" rel="noreferrer" id="link">LinkedIn</a></li>
                   </ul>
