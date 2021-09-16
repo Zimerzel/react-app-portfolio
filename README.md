@@ -61,5 +61,4 @@ Email : Zach.imerzel@gmail.com
 Github : https://github.com/Zimerzel
 
 ## Helpful Links
-* Github Repo: https://github.com/Zimerzel/react-app-portfolio
-* Hekou Deployment: https://intense-falls-85024.herokuapp.com/ZachImerzelWebDev/about
+* Hekou Deployment: https://zimerzel.herokuapp.com/
