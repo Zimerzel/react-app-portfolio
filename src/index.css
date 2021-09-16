@@ -5,6 +5,7 @@
   overflow-y: hidden;
 }
 
+
 .footer {
   z-index: 4;
   background-color: var(--bg);
@@ -311,12 +312,16 @@ p {
   justify-content: center;
 }
 
+.contact-info p {
+  padding:20px
+}
+
 #photo{
   border-radius: 400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-height: 150px;
+  max-height: 250px;
 }
 
 #skills {
@@ -369,6 +374,12 @@ p {
   word-wrap: break-word;
 }
 
+.contact ul li a{
+  font-size: 1.7vw;
+  display: inline;
+  width: 100%;
+}
+
 .resume ul li{
   display: inline;
   padding: 1px;
@@ -381,6 +392,8 @@ p {
 
 .resume h4{
 font-size: 2vw;
+text-decoration: #242526 underline;
+
 }
 
 .resume h5{

@@ -26,9 +26,9 @@ function Contact() {
           </form>
         </div>
         <h3>Prefer another method?</h3>
-        <p>
-          <span>Email:</span> Zach.imerzel@gmail.com<br/>
-          <span>Phone:</span> (303)902-0091<br/>
+        <p className="contact-info">
+          Email: Zach.imerzel@gmail.com<br/>
+          Phone: (303)902-0091<br/>
         </p>
         <br></br>
         <br></br>

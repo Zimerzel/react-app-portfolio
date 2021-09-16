@@ -1,6 +1,7 @@
 import React from 'react'; 
-import Resumejpg from '../../assets/images/resume.png'
-import Certificatepng from '../../assets/images/certificate.png'
+import Resumejpg from '../../assets/images/resume.png';
+import Certificatepng from '../../assets/images/certificate.png';
+
 
 function Resume() {
 
@@ -18,11 +19,13 @@ return(
                   Austin, TX 78737
                 </p>
                 <p>Phone:(303)902-0091 | Email: zachary.imerzel@gmail.com</p>
-                <ul>
-                  <li><a href="https://zimerzel.herokuapp.com/about" target="_blank" rel="noreferrer" id="link">Portfolio |</a></li>
-                  <li><a href="https://github.com/Zimerzel" target="_blank" rel="noreferrer" id="link">Github |</a></li>
-                  <li><a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank" rel="noreferrer" id="link">LinkedIn</a></li>
-                </ul>
+                <div>
+                  <ul>
+                    <li><a href="https://zimerzel.herokuapp.com/about" target="_blank" rel="noreferrer" id="link">Portfolio |</a></li>
+                    <li><a href="https://github.com/Zimerzel" target="_blank" rel="noreferrer" id="link">Github |</a></li>
+                    <li><a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank" rel="noreferrer" id="link">LinkedIn</a></li>
+                  </ul>
+                </div>
               </div>
               <div>
                 <h4>
@@ -54,9 +57,9 @@ return(
                 </p>
                 <h6> Made with:</h6>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
+                  <li>HTML, </li>
+                  <li>CSS, </li>
+                  <li>Javascript, </li>
                 </ul>
                 <br />
                 <br/>
@@ -71,17 +74,17 @@ return(
                 </p>
                 <h6>Made with:</h6>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Stripe</li>
-                  <li>Graphql</li>
-                  <li>React</li>
-                  <li>Redux</li>
-                  <li>Express</li>
-                  <li>Mongoose</li>
-                  <li>Jsonwebtoken</li>
-                  <li>Bcrypt</li>
+                  <li>HTML, </li>
+                  <li>CSS, </li>
+                  <li>JavaScript, </li>
+                  <li>Stripe, </li>
+                  <li>Graphql, </li>
+                  <li>React, </li>
+                  <li>Redux, </li>
+                  <li>Express, </li>
+                  <li>Mongoose, </li>
+                  <li>Jsonwebtoken, </li>
+                  <li>Bcrypt </li>
                 </ul>
                 <br/>
                 <br/>
@@ -95,17 +98,17 @@ return(
                 </p>
                 <h6>Made with:</h6>
                 <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Bcrypt</li>
-                  <li>Express</li>
-                  <li>Express-Handlebars</li>
-                  <li>Express-Sessions</li>
-                  <li>MySQL</li>
-                  <li>Sequelize</li>
-                  <li>Bootstrap</li>
-                  <li>Dotenv</li>
+                  <li>HTML, </li>
+                  <li>CSS, </li>
+                  <li>JavaScript, </li>
+                  <li>Bcrypt, </li>
+                  <li>Express, </li>
+                  <li>Express-Handlebars, </li>
+                  <li>Express-Sessions, </li>
+                  <li>MySQL, </li>
+                  <li>Sequelize, </li>
+                  <li>Bootstrap, </li>
+                  <li>Dotenv </li>
                 </ul>
                 <br/>
                 <br/>
