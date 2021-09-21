@@ -460,7 +460,7 @@ width: 100%;
 .card {
   background-color: #28292b;
   border-radius: 5px;
-  height: 400px;
+  height: 450px;
   margin: 2rem;
   position: relative;
   width: 400px;
@@ -491,11 +491,14 @@ width: 100%;
   font-size: 12px;
   text-align: center;
   color:white;
+  margin-top: -10px;
 }
 
 #project-icon {
   max-height: 50%;
   transition: filter 300ms;
+  position: relative;
+  top: -10px;
 }
 
 #project-icon:hover {
