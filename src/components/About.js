@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Col, Row} from "react-bootstrap"
-import ProfilePicture from '../assets/images/me2.jpg'
+import ProfilePicture from '../assets/images/me.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
 import CSS from '../assets/skills/css3.png'
 import Express from '../assets/skills/express.png'
