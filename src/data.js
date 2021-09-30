@@ -5,7 +5,6 @@ export default[
         "image": "https://user-images.githubusercontent.com/79726069/116947491-8ab70000-ac42-11eb-9352-da6b3edb4c04.PNG",
         "github": "https://github.com/misn0147/meal_match",
         "deploy": "https://misn0147.github.io/meal_match/",
-        "github": "https://github.com/misn0147/meal_match",
         "topics": "An app to make date night simple.",
         "tech": "HTML, CSS, JavaScript"
     },

@@ -24,7 +24,7 @@ function About () {
                     <br></br>
                     <div className="about-box">
                         <div id="photo">
-                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="250px" height="250px"/>
+                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="250px" height="250px" alt="Photo of Zach"/>
                         </div>
                         
                         <br></br>
@@ -38,19 +38,19 @@ function About () {
                         <br></br>
                         <h3>Skills</h3>
                         <div id="skills">
-                            <img src= {Bootjs} width="50px" height="50px" id="border-radius"/>
-                            <img src= {CSS} width="50px" height="50px" id="border-radius"/>
-                            <img src= {Express} width="50px" id="border-radius" />
-                            <img src= {Github} width="50px" height="50px"/>
-                            <img src= {Html} width="50px" height="50px" id="border-radius"/>
-                            <img src= {JQuery} width="50px" height="50px"/>
-                            <img src= {JS} width="50px" height="50px"/>
-                            <img src= {MERN} width="90px" height="50px"/>
-                            <img src= {Mongodb} width="50px" height="50px"/>
-                            <img src= {MySQL} width="55px" height="50px"/>
-                            <img src= {Node} width="50px" height="50px"/>
-                            <img src= {Npm} width="60px" height="50px"/>
-                            <img src= {Reactjs} width="50px" height="50px"/>
+                            <img src= {Bootjs} width="50px" height="50px" id="border-radius" alt="Bootstrap JS Logo" />
+                            <img src= {CSS} width="50px" height="50px" id="border-radius" alt="CSS Logo" />
+                            <img src= {Express} width="50px" id="border-radius" alt="Express Logo" />
+                            <img src= {Github} width="50px" height="50px" alt="Github Logo"/>
+                            <img src= {Html} width="50px" height="50px" id="border-radius" alt="HTML Logo"/>
+                            <img src= {JQuery} width="50px" height="50px" alt="jQuery Logo" />
+                            <img src= {JS} width="50px" height="50px" alt="JavaScript Logo" />
+                            <img src= {MERN} width="90px" height="50px" alt="MERN Logo" />
+                            <img src= {Mongodb} width="50px" height="50px" alt-="Mongodb Logo" />
+                            <img src= {MySQL} width="55px" height="50px" alt="MySQL Logo" />
+                            <img src= {Node} width="50px" height="50px" alt="Node Logo" />
+                            <img src= {Npm} width="60px" height="50px" alt="NPM Logo" />
+                            <img src= {Reactjs} width="50px" height="50px" alt="React Logo"/>
                         </div>
                     </div>
                 <br></br>
