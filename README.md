@@ -1,5 +1,8 @@
 # React-App-Portfolio
 
+![pic](https://user-images.githubusercontent.com/79726069/135529748-b96be6e7-e045-4afc-b0b0-f0695f551c5f.PNG)
+
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications
 I WANT to view a potential employee's deployed React portfolio of work samples
