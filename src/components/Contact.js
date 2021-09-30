@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
-import { validateEmail, capitalizeFirstLetter } from "../utils/helpers";
 
 function Contact() {
-  
   return (
     <div className="contact">
       <h2>Contact Me</h2>

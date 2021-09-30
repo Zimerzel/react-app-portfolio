@@ -8,7 +8,6 @@ import { ReactComponent as  Article} from '../icons/article.svg'
 import { ReactComponent as  Work} from '../icons/work.svg'
 import { ReactComponent as  User} from '../icons/user.svg'
 
-
 function DropdownMenu () {
     const [activeMenu, setActiveMenu] = useState('main');
     const [menuHeight, setMenuHeight] = useState(null);

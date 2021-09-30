@@ -5,7 +5,6 @@ import DropdownMenu from "./NavDropdown";
 import { ReactComponent as Caret } from '../icons/caret.svg'
 import heroImage from '../assets/images/hero-bg.jpg'
 
-
 function Header() {
     return(
         <div id="header">

@@ -14,22 +14,6 @@ import Npm from '../assets/skills/npm_logo.png'
 import Reactjs from '../assets/skills/reactjs.png'
 import JS from '../assets/skills/js.png'
 
-// const ProfilePicture = lazy(() => import('../assets/images/me-min.jpg'))
-// const Bootjs = lazy(() => import('../assets/skills/bootjs.png'))
-// const CSS = lazy(() => import('../assets/skills/css3.png'))
-// const Github = lazy(() => import('../assets/skills/github.png'))
-// const Express = lazy(() => import('../assets/skills/express.png'))
-// const Html = lazy(() => import('../assets/skills/html.png'))
-// const JQuery = lazy(() => import('../assets/skills/jQuery.png'))
-// const MERN = lazy(() => import('../assets/skills/mern.jpg'))
-// const Mongodb = lazy(() => import('../assets/skills/mongodb.png'))
-// const MySQL = lazy(() => import('../assets/skills/mysql.jpg'))
-// const Node = lazy(() => import('../assets/skills/node.png'))
-// const Npm = lazy(() => import('../assets/skills/npm_logo.png'))
-// const Reactjs = lazy(() => import('../assets/skills/reactjs.png'))
-// const JS = lazy(() => import('../assets/skills/js.png'))
-
-
 function About () {
     return(
         <>
@@ -71,9 +55,6 @@ function About () {
                     </div>
                 <br></br>
         </>
-
-        // forest bathing
-        // great reads
     )
 }
 

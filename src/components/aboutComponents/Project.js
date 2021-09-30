@@ -3,8 +3,6 @@ import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-// import Carousel from 'react-bootstrap/Carousel'
-
 
 function ProjectCard(props) {
   return (
@@ -29,21 +27,5 @@ function ProjectCard(props) {
     </Container>
   </>
 )}
-
-    // <div class="card">
-    //   <div className="img-container">
-    //     <img alt={props.name} src={props.image}/>
-    //   </div>
-    //   <div className="description">
-    //     <p className="project-title" id="card-title">{props.name}</p>
-    //     <p>
-    //       ({props.topics})
-    //     </p>
-    //   </div>
-    // </div>
-//   )
-// }
-
-
 
 export default ProjectCard;
