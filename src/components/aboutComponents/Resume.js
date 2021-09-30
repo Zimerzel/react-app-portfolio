@@ -1,6 +1,6 @@
 import React from 'react'; 
-import Resumejpg from '../../assets/images/resume.png';
-import Certificatepng from '../../assets/images/certificate.png';
+import Resumejpg from '../../assets/images/resume-min.png';
+import Certificatepng from '../../assets/images/certificate-min.png';
 
 
 function Resume() {
