@@ -28,8 +28,6 @@ function Contact() {
           Email: Zach.imerzel@gmail.com<br/>
           Phone: (303)902-0091<br/>
         </p>
-        <br></br>
-        <br></br>
       </div>
   );
 }
