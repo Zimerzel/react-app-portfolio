@@ -18,8 +18,8 @@ return(
                 <p>Phone:(303)902-0091 | Email: zachary.imerzel@gmail.com</p>
                 <div>
                   <ul>
-                    <li><a href="https://github.com/Zimerzel" target="_blank" rel="noreferrer" id="link">Github |</a></li>
-                    <li><a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank" rel="noreferrer" id="link">LinkedIn</a></li>
+                    <li><a href="https://github.com/Zimerzel" target="_blank" rel="noreferrer" id="github">Github |</a></li>
+                    <li><a href="https://www.linkedin.com/in/zach-imerzel-336b9414b/" target="_blank" rel="noreferrer" id="linkedin">LinkedIn</a></li>
                   </ul>
                 </div>
               </div>
@@ -137,7 +137,7 @@ return(
               </div>
             <div id="resume">
               <Suspense fallback={<div>Loading...</div>}>
-                <img src={Certificatepng} alt="UT Certificate" id="resume-img"/>
+                <img src={Certificatepng} alt="UT Certificate" id="resume-img" width="300px" height="400px"/>
               </Suspense>
             </div>
         </div>

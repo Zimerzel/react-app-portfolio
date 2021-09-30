@@ -46,7 +46,7 @@ function About () {
                             <img src= {JQuery} width="50px" height="50px" alt="jQuery Logo" />
                             <img src= {JS} width="50px" height="50px" alt="JavaScript Logo" />
                             <img src= {MERN} width="90px" height="50px" alt="MERN Logo" />
-                            <img src= {Mongodb} width="50px" height="50px" alt-="Mongodb Logo" />
+                            <img src= {Mongodb} width="50px" height="50px" alt="Mongodb Logo" />
                             <img src= {MySQL} width="55px" height="50px" alt="MySQL Logo" />
                             <img src= {Node} width="50px" height="50px" alt="Node Logo" />
                             <img src= {Npm} width="60px" height="50px" alt="NPM Logo" />

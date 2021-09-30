@@ -18,13 +18,13 @@
   color: white;
 }
 
-#link {
+#link, #github, #linkedin {
   color: darkolivegreen;
   display: inline;
   font-size: 1.5vw;
 }
 
-#link-footer {
+#LinkedIn, #Download, #Github {
   color: darkolivegreen;
   display: inline;
   width: auto;
