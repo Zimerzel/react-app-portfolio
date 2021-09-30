@@ -1,7 +1,7 @@
-import React from 'react'; 
-import Resumejpg from '../../assets/images/resume-min.png';
-import Certificatepng from '../../assets/images/certificate-min.png';
+import React, { Suspense } from 'react'; 
+// import Certificatepng from '../../assets/images/certificate-min.png';
 
+const Certificatepng = React.lazy(() => import('../../assets/images/certificate-min.png'));
 
 function Resume() {
 
@@ -139,7 +139,9 @@ return(
               </div>
               </div>
             <div id="resume">
+              <Suspense fallback={<div>Loading...</div>}>
                 <img src={Certificatepng} alt="resume.png" id="resume-img"/>
+              </Suspense>
             </div>
         </div>
     </div>

@@ -1,5 +1,4 @@
-import React from "react";
-import { Container, Col, Row} from "react-bootstrap"
+import React, { lazy } from "react";
 import ProfilePicture from '../assets/images/me-min.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
 import CSS from '../assets/skills/css3.png'
@@ -15,6 +14,22 @@ import Npm from '../assets/skills/npm_logo.png'
 import Reactjs from '../assets/skills/reactjs.png'
 import JS from '../assets/skills/js.png'
 
+// const ProfilePicture = lazy(() => import('../assets/images/me-min.jpg'))
+// const Bootjs = lazy(() => import('../assets/skills/bootjs.png'))
+// const CSS = lazy(() => import('../assets/skills/css3.png'))
+// const Github = lazy(() => import('../assets/skills/github.png'))
+// const Express = lazy(() => import('../assets/skills/express.png'))
+// const Html = lazy(() => import('../assets/skills/html.png'))
+// const JQuery = lazy(() => import('../assets/skills/jQuery.png'))
+// const MERN = lazy(() => import('../assets/skills/mern.jpg'))
+// const Mongodb = lazy(() => import('../assets/skills/mongodb.png'))
+// const MySQL = lazy(() => import('../assets/skills/mysql.jpg'))
+// const Node = lazy(() => import('../assets/skills/node.png'))
+// const Npm = lazy(() => import('../assets/skills/npm_logo.png'))
+// const Reactjs = lazy(() => import('../assets/skills/reactjs.png'))
+// const JS = lazy(() => import('../assets/skills/js.png'))
+
+
 function About () {
     return(
         <>
@@ -25,7 +40,7 @@ function About () {
                     <br></br>
                     <div className="about-box">
                         <div id="photo">
-                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" />
+                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="250px" height="250px"/>
                         </div>
                         
                         <br></br>
@@ -39,19 +54,19 @@ function About () {
                         <br></br>
                         <h3>Skills</h3>
                         <div id="skills">
-                            <img src= {Bootjs} width="40px" id="border-radius"/>
-                            <img src= {CSS} width="40px" id="border-radius"/>
-                            <img src= {Express} width="40px" id="border-radius" />
-                            <img src= {Github} width="40px"/>
-                            <img src= {Html} width="40px" id="border-radius"/>
-                            <img src= {JQuery} width="37px"/>
-                            <img src= {JS} width="40px"/>
-                            <img src= {MERN} width="90px"/>
-                            <img src= {Mongodb} width="40px"/>
-                            <img src= {MySQL} width="55px"/>
-                            <img src= {Node} width="40px"/>
-                            <img src= {Npm} width="60px"/>
-                            <img src= {Reactjs} width="40px"/>
+                            <img src= {Bootjs} width="50px" height="50px" id="border-radius"/>
+                            <img src= {CSS} width="50px" height="50px" id="border-radius"/>
+                            <img src= {Express} width="50px" id="border-radius" />
+                            <img src= {Github} width="50px" height="50px"/>
+                            <img src= {Html} width="50px" height="50px" id="border-radius"/>
+                            <img src= {JQuery} width="50px" height="50px"/>
+                            <img src= {JS} width="50px" height="50px"/>
+                            <img src= {MERN} width="90px" height="50px"/>
+                            <img src= {Mongodb} width="50px" height="50px"/>
+                            <img src= {MySQL} width="55px" height="50px"/>
+                            <img src= {Node} width="50px" height="50px"/>
+                            <img src= {Npm} width="60px" height="50px"/>
+                            <img src= {Reactjs} width="50px" height="50px"/>
                         </div>
                     </div>
                 <br></br>
