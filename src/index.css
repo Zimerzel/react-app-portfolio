@@ -341,11 +341,14 @@ p {
 
 .resume img{
   padding: 5vw;
-  display: block;
-  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -5vw;
   margin-right: auto;
   width: 70%;
   object-fit: cover;
+  height: 80%;
+  width: 100%;
 }
 
 .resume{

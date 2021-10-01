@@ -137,7 +137,7 @@ return(
               </div>
             <div id="resume">
               <Suspense fallback={<div>Loading...</div>}>
-                <img src={Certificatepng} alt="UT Certificate" id="resume-img" width="300px" height="400px"/>
+                <img src={Certificatepng} alt="UT Certificate" id="resume-img"/>
               </Suspense>
             </div>
         </div>

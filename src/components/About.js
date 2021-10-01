@@ -40,7 +40,7 @@ function About () {
                         <div id="skills">
                             <img src= {Bootjs} width="50px" height="50px" id="border-radius" alt="Bootstrap JS Logo" />
                             <img src= {CSS} width="50px" height="50px" id="border-radius" alt="CSS Logo" />
-                            <img src= {Express} width="50px" id="border-radius" alt="Express Logo" />
+                            <img src= {Express} width="50px" height="50px" id="border-radius" alt="Express Logo" />
                             <img src= {Github} width="50px" height="50px" alt="Github Logo"/>
                             <img src= {Html} width="50px" height="50px" id="border-radius" alt="HTML Logo"/>
                             <img src= {JQuery} width="50px" height="50px" alt="jQuery Logo" />
