@@ -30,10 +30,10 @@ function About () {
                         <br></br>
                         <h3>My Story</h3>
                         <p id="about-text">
-                        I lived most of my life in Boulder, CO and was taught to embrace the adventure.
-                        In many ways that mindset has been both a blessing and a curse, it has shown me that there is so much to this amazing place we live and to never settle as there is always another adventure just around the corner. 
-                        That same passion for adventure and finding what feels "right" has inspired me to work in various carrer fields to see what they can offer. I have a certificate of completion from the University of Texas for Full Stack Development.
-                         Although I am early in the process of becoming a developer, I can't help but feel that same sense of adventure that I have been looking for in a career! Feel free to browse my work and don't hesistate to reach out with any questions/comments!
+                        I have lived most of my life in Boulder, CO and was taught to embrace adventure.
+                        In many ways that mindset has been both a blessing and a curse. It has shown me that there is so much to this amazing place we live and to never settle as there is always another adventure just around the corner. 
+                        That same passion for adventure and finding what feels "right" has inspired me to work in various career fields to see what they can offer. I have a certificate from the University of Texas for Full Stack Development.
+                         Although I am early in the process of becoming a developer, I can't help but feel that same sense of adventure that I have been looking for in a career! Feel free to browse my work and don't hesitate to reach out with any questions/comments!
                         </p>
                         <br></br>
                         <h3>Skills</h3>
