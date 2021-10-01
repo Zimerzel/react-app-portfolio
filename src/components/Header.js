@@ -1,9 +1,12 @@
-import React from 'react'
-import Navbar from './Nav'
-import NavItem from "./NavItem";
-import DropdownMenu from "./NavDropdown";
+import React, { Suspense } from 'react'
 import { ReactComponent as Caret } from '../icons/caret.svg'
 import heroImage from '../assets/images/hero-bg.jpg'
+// import Navbar from './Nav'
+const Navbar = React.lazy(() => import('./Nav'))
+// import NavItem from "./NavItem";
+const NavItem = React.lazy(() => import('./NavItem'))
+// import DropdownMenu from "./NavDropdown";
+const DropdownMenu = React.lazy(() => import('./NavDropdown'))
 
 function Header() {
     return(
@@ -27,12 +30,14 @@ function Header() {
             <div id="header">
                 <img src={heroImage} id="hero" alt="fog forest"/>
             </div>
-            <Navbar>
-            <h1 id="nav-title">Zach Imerzel</h1>
-                <NavItem icon={<Caret />}>
-                    <DropdownMenu></DropdownMenu>
-                </NavItem>
-            </Navbar>
+            <Suspense fallback={<div>Loading...</div>}>
+                <Navbar>
+                <h1 id="nav-title">Zach Imerzel</h1>
+                    <NavItem icon={<Caret />}>
+                        <DropdownMenu></DropdownMenu>
+                    </NavItem>
+                </Navbar>
+            </Suspense>
         </div>
     )
 }

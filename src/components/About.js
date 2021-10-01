@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import ProfilePicture from '../assets/images/me-min.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
 import CSS from '../assets/skills/css3.png'
@@ -24,7 +24,7 @@ function About () {
                     <br></br>
                     <div className="about-box">
                         <div id="photo">
-                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="250px" height="250px" alt="Photo of Zach"/>
+                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="200.3px" height="204.2px" alt="Photo of Zach"/>
                         </div>
                         
                         <br></br>
@@ -41,16 +41,17 @@ function About () {
                             <img src= {Bootjs} width="50px" height="50px" id="border-radius" alt="Bootstrap JS Logo" />
                             <img src= {CSS} width="50px" height="50px" id="border-radius" alt="CSS Logo" />
                             <img src= {Express} width="50px" height="50px" id="border-radius" alt="Express Logo" />
-                            <img src= {Github} width="50px" height="50px" alt="Github Logo"/>
+                            <img src= {Github} width="105px" height="100px" alt="Github Logo" id="Github_logo"/>
                             <img src= {Html} width="50px" height="50px" id="border-radius" alt="HTML Logo"/>
-                            <img src= {JQuery} width="50px" height="50px" alt="jQuery Logo" />
+                            <img src= {JQuery} width="285px" height="310px" alt="jQuery Logo" id="jQuery_logo"/>
                             <img src= {JS} width="50px" height="50px" alt="JavaScript Logo" />
-                            <img src= {MERN} width="90px" height="50px" alt="MERN Logo" />
-                            <img src= {Mongodb} width="50px" height="50px" alt="Mongodb Logo" />
-                            <img src= {MySQL} width="55px" height="50px" alt="MySQL Logo" />
+                            <img src= {MERN} width="105px" height="46.7px" alt="MERN Logo" />
+                            <img src= {MySQL} width="45px" height="34px" alt="MySQL Logo" id="mysql_logo"/>
+                            <img src= {Reactjs} width="100px" height="100px" alt="React Logo" id="react_logo"/>
                             <img src= {Node} width="50px" height="50px" alt="Node Logo" />
-                            <img src= {Npm} width="60px" height="50px" alt="NPM Logo" />
-                            <img src= {Reactjs} width="50px" height="50px" alt="React Logo"/>
+                            <img src= {Mongodb} width="50px" height="50px" alt="Mongodb Logo" />
+                            <img src= {Npm} width="188px" height="100px" alt="NPM Logo" id="npm_logo"/>
+                            
                         </div>
                     </div>
                 <br></br>

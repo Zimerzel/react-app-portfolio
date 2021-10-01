@@ -335,6 +335,31 @@ p {
   padding: 10px;
 }
 
+#mysql_logo {
+height: 50%;
+width: 6%;
+}
+
+#jQuery_logo {
+  height: 4.1%;
+width: 4.1%;
+}
+
+#Github_logo{
+  height: 4.7%;
+  width: 4.7%;
+}
+
+#npm_logo{
+  width: 8%;
+  height: 8%;
+}
+
+#react_logo{
+width: 5%;
+height: 5%;
+}
+
 #border-radius {
   border-radius: 40px;
 }
