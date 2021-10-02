@@ -7,7 +7,7 @@ import Thanks from './components/Thanks';
 
 //Main components
 import Header from './components/Header';
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import About from "./components/About";
 import './index.css';
 
@@ -45,7 +45,7 @@ function App() {
         <Route exact path='/thanks' component={Thanks} />
         <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </>
     </Router>
 
