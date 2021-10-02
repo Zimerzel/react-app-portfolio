@@ -537,8 +537,7 @@ width: 100%;
   filter:brightness(1.5)
 }
 
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
   .card {
     width: 300px;
   }
@@ -548,12 +547,49 @@ width: 100%;
   .form{
     width: 260px;
   }
+  .resume h3{
+    font-size: 3.5vw;
+  }
+  .resume h4{
+    font-size: 2.8vw;
+  }
+  .resume h5, .resume h6{
+    font-size: 2.1vw;
+  }
+  .resume p, #link, #linkedin, #github{
+    font-size: 2vw;
+  }
+  .resume ul li{
+    font-size: 1.9vw;
+  }
 }
 
-@media only screen and (min-width: 501px, max-width: 1023){
+@media (min-width: 768px) and (max-width:1024){
   .form{
     width: 600px;
   }
+}
+
+@media only screen and (max-width:1980px){
+  #mysql_logo {
+    width: 65px;
+    }
+    
+    #jQuery_logo {
+      width: 45px;
+    }
+    
+    #Github_logo{
+      width: 50px;
+    }
+    
+    #npm_logo{
+      width: 65px;
+    }
+    
+    #react_logo{
+    width: 55px;
+    } 
 }
 
 /* Fog */
