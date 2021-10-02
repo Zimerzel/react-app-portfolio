@@ -38,6 +38,15 @@ return(
                 <p>
                   Languages: Java, JavaScript
                 </p>
+                <p>
+                  Applications: Git, Github, VS Code 
+                </p>
+                <p>
+                  Application Servers: Heroku, Firebase
+                </p>
+                <p>
+                  Database Systems: MongoDB, SQL, MySQL, NoSQL
+                </p>
               </div>
               <div>
                 <h4>
