@@ -36,16 +36,16 @@ return(
                   Technical Skills
                 </h4>
                 <p>
-                  Languages: Java, JavaScript
+                  <strong>Languages</strong>: Java, JavaScript
                 </p>
                 <p>
-                  Applications: Git, Github, VS Code 
+                  <strong>Applications</strong>: Git, Github, VS Code 
                 </p>
                 <p>
-                  Application Servers: Heroku, Firebase
+                  <strong>Application Servers</strong>: Heroku, Firebase
                 </p>
                 <p>
-                  Database Systems: MongoDB, SQL, MySQL, NoSQL
+                  <strong>Database Systems</strong>: MongoDB, SQL, MySQL, NoSQL
                 </p>
               </div>
               <div>
