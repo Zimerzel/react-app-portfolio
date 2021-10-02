@@ -34,7 +34,7 @@ footer p{
 }
 
 #header{
-  width: 100%;
+  width: 100vw;
 }
 
 #header h1{
@@ -499,6 +499,7 @@ width: 100%;
   position: relative;
   z-index: 1;
   transition: filter 300ms;
+  padding-right: 1vw;
 }
 
 .card:hover {
@@ -534,6 +535,19 @@ width: 100%;
 
 #project-icon:hover {
   filter:brightness(1.5)
+}
+
+
+@media only screen and (max-width: 500px) {
+  .card {
+    width: 300px;
+  }
+  .form-group, .form-group-btn{
+    margin-left: -5vw;
+  }
+  .form{
+    width: 100vw;
+  }
 }
 
 /* Fog */
