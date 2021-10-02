@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 
 function Contact() {
   return (
+    <>
     <div className="contact">
       <h2>Contact Me</h2>
         <br />
@@ -29,6 +30,9 @@ function Contact() {
           Phone: (303)902-0091<br/>
         </p>
       </div>
+      <br />
+      <br />
+      </>
   );
 }
 

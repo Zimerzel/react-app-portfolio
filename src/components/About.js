@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 import ProfilePicture from '../assets/images/me-min.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
 import CSS from '../assets/skills/css3.png'
@@ -13,6 +15,7 @@ import Node from '../assets/skills/node.png'
 import Npm from '../assets/skills/npm_logo.png'
 import Reactjs from '../assets/skills/reactjs.png'
 import JS from '../assets/skills/js.png'
+
 
 function About () {
     return(
