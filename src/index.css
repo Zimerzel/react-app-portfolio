@@ -8,6 +8,7 @@
 footer{
   background-color: #242526;
   height: 80px;
+  margin-top: 5vw;
 }
 
 footer p{
@@ -536,7 +537,6 @@ width: 100%;
 #project-icon:hover {
   filter:brightness(1.5)
 }
-
 @media only screen and (max-width: 700px) {
   .card {
     width: 300px;
@@ -570,6 +570,11 @@ width: 100%;
   }
 }
 
+@media only screen and (min-width:1024px){
+  footer{
+    margin-top: 15vh;
+  }
+}
 @media only screen and (max-width:1980px){
   #mysql_logo {
     width: 65px;
