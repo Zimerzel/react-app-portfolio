@@ -128,7 +128,7 @@ return(
                   Education
                 </h4>
                 <ul>
-                  <li>Bootcamp Certificate: University of Texas, Austin, TX</li>
+                  <li>Certificate: University of Texas, Austin, TX</li>
                 </ul>
                 <p>
                   A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.
