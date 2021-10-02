@@ -543,11 +543,16 @@ width: 100%;
     width: 300px;
   }
   .form-group, .form-group-btn{
-    margin-left: -5vw;
+    margin-left: -1vw;
   }
   .form{
-    width: 300px;
-    margin-left: 60px;
+    width: 260px;
+  }
+}
+
+@media only screen and (min-width: 501px, max-width: 1023){
+  .form{
+    width: 600px;
   }
 }
 
