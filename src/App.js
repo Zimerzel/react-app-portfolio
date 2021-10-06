@@ -1,8 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
-//Icons
-import { ReactComponent as CaretIcon } from './icons/caret.svg'
+//Pages
 import Thanks from './components/Thanks';
 
 //Main components

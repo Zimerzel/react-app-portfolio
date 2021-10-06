@@ -11,24 +11,8 @@ const DropdownMenu = React.lazy(() => import('./NavDropdown'))
 function Header() {
     return(
         <div id="header">
-            <div>
-                <div className="fogwrapper">
-                    <div id="foglayer_01" className="fog">
-                        <div className="image01"></div>
-                        <div className="image02"></div>
-                    </div>
-                    <div id="foglayer_02" className="fog">
-                        <div className="image01"></div>
-                        <div className="image02"></div>
-                    </div>
-                    <div id="foglayer_03" className="fog">
-                        <div className="image01"></div>
-                        <div className="image02"></div>
-                    </div>
-                </div>
-            </div>
             <div id="header">
-                <img src={heroImage} id="hero" alt="fog forest"/>
+                <img src={heroImage} id="hero" alt="fog forest" width="1920px" height="1080px"/>
             </div>
             <Suspense fallback={<div>Loading...</div>}>
                 <Navbar>
