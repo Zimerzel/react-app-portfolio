@@ -1,6 +1,4 @@
 import React from "react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-
 import ProfilePicture from '../assets/images/me-min.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
 import CSS from '../assets/skills/css3.png'
@@ -19,6 +17,7 @@ import SQLA from '../assets/images/sqlalchemy.png'
 import Flask from '../assets/images/flask.png'
 
 
+
 function About () {
     return(
         <>
@@ -28,8 +27,8 @@ function About () {
                     <h2>About Me</h2>
                     <br></br>
                     <div className="about-box">
-                        <div id="photo">
-                            <img src={ProfilePicture}  alt="Profile-Picture" id="photo" width="200.3px" height="204.2px" alt="Photo of Zach"/>
+                        <div id="profile">
+                            <img src={ProfilePicture} id="profile" width="200.3px" height="204.2px" alt="Zach"/>
                         </div>
                         
                         <br></br>
@@ -58,6 +57,7 @@ function About () {
                             <img src= {Npm} width="188px" height="100px" alt="NPM Logo" id="npm_logo"/>
                             <img src= {SQLA} width="110px" height="50px" alt="SQL Alchemy Logo" id="SQLA" />
                             <img src={Flask} width="110px" height="50px" alt="Flask Logo" id="Flask" />
+
                         </div>
                     </div>
                 <br></br>
