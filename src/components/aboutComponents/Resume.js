@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'; 
 import Certificatepng from '../../assets/images/certificate-min.png';
+// const Certificatepng = React.lazy(() => import('../../assets/images/certificate.png'))
 
 function Resume() {
 return(
@@ -36,7 +37,7 @@ return(
                   Technical Skills
                 </h4>
                 <p>
-                  <strong>Languages</strong>: Java, JavaScript
+                  <strong>Languages</strong>: Java, JavaScript, Python
                 </p>
                 <p>
                   <strong>Applications</strong>: Git, Github, VS Code 
@@ -45,7 +46,10 @@ return(
                   <strong>Application Servers</strong>: Heroku, Firebase
                 </p>
                 <p>
-                  <strong>Database Systems</strong>: MongoDB, SQL, MySQL, NoSQL
+                  <strong>Database Systems</strong>: MongoDB, SQL, MySQL, NoSQL, SQLAlchemy
+                </p>
+                <p>
+                  <strong>Frameworks</strong>: ReactJS, VueJS, Bootstrap
                 </p>
               </div>
               <div>

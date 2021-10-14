@@ -15,6 +15,8 @@ import Node from '../assets/skills/node.png'
 import Npm from '../assets/skills/npm_logo.png'
 import Reactjs from '../assets/skills/reactjs.png'
 import JS from '../assets/skills/js.png'
+import SQLA from '../assets/images/sqlalchemy.png'
+import Flask from '../assets/images/flask.png'
 
 
 function About () {
@@ -54,7 +56,8 @@ function About () {
                             <img src= {Node} width="50px" height="50px" alt="Node Logo" />
                             <img src= {Mongodb} width="50px" height="50px" alt="Mongodb Logo" />
                             <img src= {Npm} width="188px" height="100px" alt="NPM Logo" id="npm_logo"/>
-                            
+                            <img src= {SQLA} width="110px" height="50px" alt="SQL Alchemy Logo" id="SQLA" />
+                            <img src={Flask} width="110px" height="50px" alt="Flask Logo" id="Flask" />
                         </div>
                     </div>
                 <br></br>
