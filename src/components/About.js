@@ -44,11 +44,10 @@ function About () {
                         the social media era, I had a narrow view on technology. I wanted people to 
                         socialize instead of tweet, to call instead of text, and for people to eat 
                         their food without taking another #mylunch photo.
-                        That’s exactly where I was wrong, technology is so much larger than the media. 
-                        Adaptation doesn't always have to be an alteration of your person or the thing itself, but it’s also perspective.
+                        That’s exactly where I was wrong, software is so much larger than just media. 
+                        Adaptation doesn't always have to be an alteration of your person or the thing itself, but it can also be a change in perspective.
                         Once my perspective changed, I saw just how many opportunities
                         there were to personally or indirectly create positive change in the world through software development.
-                        I began to see software was more than the media that I had been surrounded by growing up.
                         Software could be developed for hospitals, research facilities, prosthetics and environmental needs. 
                         The applications are limitless. While I've just begun my adventure into software development, 
                         I can say I am extremely proud to be a part of this field. Feel free to browse my work and don't 
