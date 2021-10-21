@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react'; 
 import Certificatepng from '../../assets/images/certificate-min.png';
-// const Certificatepng = React.lazy(() => import('../../assets/images/certificate.png'))
 
 function Resume() {
 return(

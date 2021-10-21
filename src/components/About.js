@@ -1,5 +1,4 @@
 import React from "react";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import ProfilePicture from '../assets/images/me-min.jpg'
 import Bootjs from '../assets/skills/bootjs.png'
@@ -17,6 +16,7 @@ import Reactjs from '../assets/skills/reactjs.png'
 import JS from '../assets/skills/js.png'
 import SQLA from '../assets/images/sqlalchemy.png'
 import Flask from '../assets/images/flask.png'
+import Firebase from '../assets/images/firebase.png'
 
 
 function About () {
@@ -35,10 +35,25 @@ function About () {
                         <br></br>
                         <h3>My Story</h3>
                         <p id="about-text">
-                        I have lived most of my life in Boulder, CO and was taught to embrace adventure.
-                        In many ways that mindset has been both a blessing and a curse. It has shown me that there is so much to this amazing place we live and to never settle as there is always another adventure just around the corner. 
-                        That same passion for adventure and finding what feels "right" has inspired me to work in various career fields to see what they can offer. I have a certificate from the University of Texas for Full Stack Development.
-                         Although I am early in the process of becoming a developer, I can't help but feel that same sense of adventure that I have been looking for in a career! Feel free to browse my work and don't hesitate to reach out with any questions/comments!
+                        I have lived most of my life in Boulder, CO and was taught to embrace adventure. 
+                        Colorado is known for being an unpredictable environment as the weather and events 
+                        that follow can change by the minute. Growing up in an ever-changing environment
+                        has taught me many things but the most important lesson was to be able to adapt.
+                        Initially, I had no desire to enter the world of tech and I refused to accept 
+                        it’s increasing integration in our lives. Being young and growing up alongside 
+                        the social media era, I had a narrow view on technology. I wanted people to 
+                        socialize instead of tweet, to call instead of text, and for people to eat 
+                        their food without taking another #mylunch photo.
+                        That’s exactly where I was wrong, technology is so much larger than the media. 
+                        Adaptation doesn't always have to be an alteration of your person or the thing itself, but it’s also perspective.
+                        Once my perspective changed, I saw just how many opportunities
+                        there were to personally or indirectly create positive change in the world through software development.
+                        I began to see software was more than the media that I had been surrounded by growing up.
+                        Software could be developed for hospitals, research facilities, prosthetics and environmental needs. 
+                        The applications are limitless. While I've just begun my adventure into software development, 
+                        I can say I am extremely proud to be a part of this field. Feel free to browse my work and don't 
+                        hesitate to reach out with any questions/comments!
+
                         </p>
                         <br></br>
                         <h3>Skills</h3>
@@ -58,6 +73,7 @@ function About () {
                             <img src= {Npm} width="188px" height="100px" alt="NPM Logo" id="npm_logo"/>
                             <img src= {SQLA} width="110px" height="50px" alt="SQL Alchemy Logo" id="SQLA" />
                             <img src={Flask} width="110px" height="50px" alt="Flask Logo" id="Flask" />
+                            <img src={Firebase} width="150px" height="50px" alt="Firebase Logo" id="Firebase" />
                         </div>
                     </div>
                 <br></br>
