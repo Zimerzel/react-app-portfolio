@@ -17,6 +17,7 @@ import JS from '../assets/skills/js.png'
 import SQLA from '../assets/images/sqlalchemy.png'
 import Flask from '../assets/images/flask.png'
 import Firebase from '../assets/images/firebase.png'
+import Python from '../assets/images/python.png'
 
 
 function About () {
@@ -48,7 +49,7 @@ function About () {
                         Adaptation doesn't always have to be an alteration of your person or the thing itself, but it can also be a change in perspective.
                         Once my perspective changed, I saw just how many opportunities
                         there were to personally or indirectly create positive change in the world through software development.
-                        Software could be developed for hospitals, research facilities, prosthetics and environmental needs. 
+                        Software could be and often is developed for hospitals, research facilities, prosthetics and environmental needs. 
                         The applications are limitless. While I've just begun my adventure into software development, 
                         I can say I am extremely proud to be a part of this field. Feel free to browse my work and don't 
                         hesitate to reach out with any questions/comments!
@@ -62,8 +63,9 @@ function About () {
                             <img src= {Express} width="50px" height="50px" id="border-radius" alt="Express Logo" />
                             <img src= {Github} width="105px" height="100px" alt="Github Logo" id="Github_logo"/>
                             <img src= {Html} width="50px" height="50px" id="border-radius" alt="HTML Logo"/>
-                            <img src= {JQuery} width="285px" height="310px" alt="jQuery Logo" id="jQuery_logo"/>
+                            <img src= {Python} width="50px" height="50px" id="border-radius" alt="Python Logo"/>
                             <img src= {JS} width="50px" height="50px" alt="JavaScript Logo" />
+                            <img src= {JQuery} width="285px" height="310px" alt="jQuery Logo" id="jQuery_logo"/>
                             <img src= {MERN} width="105px" height="46.7px" alt="MERN Logo" />
                             <img src= {MySQL} width="45px" height="34px" alt="MySQL Logo" id="mysql_logo"/>
                             <img src= {Reactjs} width="100px" height="100px" alt="React Logo" id="react_logo"/>
