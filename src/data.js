@@ -10,12 +10,12 @@ export default[
     },
     {
         "id": 2,
-        "name": "PWA-Budget-Tracker",
-        "image": "https://user-images.githubusercontent.com/79726069/127349247-39f9ee3c-380f-4118-b314-c4c68393ddde.PNG",
-        "deploy": "https://whispering-refuge-02355.herokuapp.com/",
-        "github": "https://github.com/Zimerzel/PWA-Budget-Tracker",
-        "topics": "PWA for all your budget needs.",
-        "tech": "HTML, CSS, JavaScript, Express, Mongoose, Morgan, Compression"
+        "name": "PPIHC",
+        "image": "https://user-images.githubusercontent.com/79726069/138789702-42e30c2b-d88d-4373-8c9a-249bb5dbc9c9.PNG",
+        "deploy": "https://pikes-peak-329615.web.app/#/",
+        "github": "https://github.com/Zimerzel/Pikes-Peak-Hillclimb",
+        "topics": "Informational Pikes Peak Site",
+        "tech": "HTML, CSS, JavaScript, Vue, Vue-router, Firebase"
     },
     {
         "id": 3,
