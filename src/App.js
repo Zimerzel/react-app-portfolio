@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 //Icons
-import { ReactComponent as CaretIcon } from './icons/caret.svg'
 import Thanks from './components/Thanks';
 
 //Main components
@@ -22,11 +21,6 @@ const Portfolio = React.lazy(() => import('./components/aboutComponents/Portfoli
 // import Contact from "./components/Contact";
 const Contact = React.lazy(() => import('./components/Contact'))
 //Learn Tabs
-
-
-
-
-
 
 function App() {
   return (

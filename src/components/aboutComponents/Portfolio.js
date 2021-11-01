@@ -19,7 +19,7 @@ function Portfolio () {
         <div id="card-container">
           <portfolioCards id="card-items">
             {portfolio.map((project) =>(
-              <ProjectCards key={project.id} name={project.name} image={project.image} github={project.github} deploy= {project.deploy} topics= {project.topics} tech= {project.tech}/>
+              <ProjectCards key={project.id} name={project.name} image={project.image} github={project.github} deploy= {project.deploy} topics= {project.topics} tech= {project.tech}></ProjectCards>
             ))}
           </portfolioCards>
         </div>
