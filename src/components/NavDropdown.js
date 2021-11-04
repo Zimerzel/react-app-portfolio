@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom"
 import { ReactComponent as Caret } from '../icons/caret.svg'
 import { ReactComponent as Messenger } from '../icons/messenger.svg'
 import { CSSTransition } from "react-transition-group"
@@ -24,12 +25,11 @@ function DropdownMenu () {
 
     function DropdownItem (props){
         return(
-            <a href="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+            <Link to="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
                 <span className="icon-button">{props.leftIcon}</span>
                     {props.children}
                 <span className="icon-right">{props.rightIcon}</span>
-
-            </a>
+            </Link>
         )
     }
     return(
@@ -43,18 +43,18 @@ function DropdownMenu () {
                     <DropdownItem
                         leftIcon={<Home />}
                     >
-                        <a href="/about">Home</a>
+                        <Link to="/about">Home</Link>
                     </DropdownItem>
                     <DropdownItem
                         leftIcon={<Caret />}
                         goToMenu="about">
-                            <a href="/about">About</a>
+                            <Link to="/about">About</Link>
                     </DropdownItem>
                     <DropdownItem
                         href ="/contact"
                         leftIcon={<Messenger />}
                         goToMenu="main">
-                            <a href="/contact">Contact</a>
+                            <Link to="/contact">Contact</Link>
                     </DropdownItem>
                 </div>
             </CSSTransition>
@@ -67,13 +67,13 @@ function DropdownMenu () {
                 <div className="menu">
                     <DropdownItem leftIcon={<Arrow />} goToMenu="main" />
                     <DropdownItem leftIcon={<User />}>
-                       <a href="/about">About Me</a>
+                       <Link to="/about">About Me</Link>
                     </DropdownItem>
                     <DropdownItem leftIcon={<Article />}>
-                       <a href="/about/resume">Resume</a>
+                       <Link to="/about/resume">Resume</Link>
                     </DropdownItem>
                     <DropdownItem leftIcon={<Work />}>
-                       <a href="/about/portfolio">Portfolio</a>
+                       <Link to="/about/portfolio">Portfolio</Link>
                     </DropdownItem>
                 </div>
             </CSSTransition>

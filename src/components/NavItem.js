@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom'
 
 function NavItem(props){
 
@@ -7,9 +8,9 @@ function NavItem(props){
     return(
       <>
         <li className="nav-item">
-          <a href="#home" className="icon-button" onClick={() => setOpen(!open)}>
+          <Link to="#home" className="icon-button" onClick={() => setOpen(!open)}>
             {props.icon}
-          </a>
+          </Link>
           {open && props.children}
         </li>
       </>
