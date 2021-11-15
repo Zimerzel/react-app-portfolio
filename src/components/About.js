@@ -18,6 +18,7 @@ import SQLA from '../assets/images/sqlalchemy.png'
 import Flask from '../assets/images/flask.png'
 import Firebase from '../assets/images/firebase.png'
 import Python from '../assets/images/python.png'
+import Vue from '../assets/skills/vue.svg'
 
 
 function About () {
@@ -69,6 +70,7 @@ function About () {
                             <img src= {MERN} width="105px" height="46.7px" alt="MERN Logo" />
                             <img src= {MySQL} width="45px" height="34px" alt="MySQL Logo" id="mysql_logo"/>
                             <img src= {Reactjs} width="100px" height="100px" alt="React Logo" id="react_logo"/>
+                            <img src= {Vue} width="50px" height="50px" alt="Vue Logo" id="vue_logo"/>
                             <img src= {Node} width="50px" height="50px" alt="Node Logo" />
                             <img src= {Mongodb} width="50px" height="50px" alt="Mongodb Logo" />
                             <img src= {Npm} width="188px" height="100px" alt="NPM Logo" id="npm_logo"/>
