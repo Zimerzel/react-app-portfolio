@@ -18,8 +18,8 @@ function ProjectCard(props) {
                 <p><q>{props.topics}</q></p>
                 <p>{props.tech}</p>
               </Card.Text>
-                <a href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a> 
-                <a href={props.deploy}><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a> 
+                <a href={props.github} target="blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a> 
+                <a href={props.deploy} target="blank" rel="noreferrer"><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a> 
             </Card.Body>
           </Card>
         </Col>
