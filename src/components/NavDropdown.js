@@ -25,17 +25,17 @@ function DropdownMenu () {
 
     function DropdownItem (props){
         return(
-            <Link to="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
+            <a href="#" className="menu-item" onClick={() => props.goToMenu && setActiveMenu(props.goToMenu)}>
                 <span className="icon-button">{props.leftIcon}</span>
                     {props.children}
                 <span className="icon-right">{props.rightIcon}</span>
-            </Link>
+            </a>
         )
     }
     return(
         <div className="dropdown" style={{ height: menuHeight }} ref={dropdownRef}>
             <CSSTransition 
-                in={activeMenu === 'main'} unmountOnExit 
+                in={activeMenu === 'main'} unmountOnExit
                 timeout={500} 
                 classNames="menu-primary" 
                 onEnter={calcHeight}>
@@ -43,37 +43,37 @@ function DropdownMenu () {
                     <DropdownItem
                         leftIcon={<Home />}
                     >
-                        <Link to="/about">Home</Link>
+                        <a href="/about">Home</a>
                     </DropdownItem>
                     <DropdownItem
                         leftIcon={<Caret />}
                         goToMenu="about">
-                            <Link to="/about">About</Link>
+                            <a href="/about">About</a>
                     </DropdownItem>
                     <DropdownItem
                         href ="/contact"
                         leftIcon={<Messenger />}
                         goToMenu="main">
-                            <Link to="/contact">Contact</Link>
+                            <a href="/contact">Contact</a>
                     </DropdownItem>
                 </div>
             </CSSTransition>
             <CSSTransition 
                 in={activeMenu === 'about'} 
-                unmountOnExit 
+                unmountOnExit
                 timeout={500} 
                 classNames="menu-secondary"
                 onEnter={calcHeight}>
                 <div className="menu">
                     <DropdownItem leftIcon={<Arrow />} goToMenu="main" />
                     <DropdownItem leftIcon={<User />}>
-                       <Link to="/about">About Me</Link>
+                       <a href="/about">About Me</a>
                     </DropdownItem>
                     <DropdownItem leftIcon={<Article />}>
-                       <Link to="/about/resume">Resume</Link>
+                       <a href="/about/resume">Resume</a>
                     </DropdownItem>
                     <DropdownItem leftIcon={<Work />}>
-                       <Link to="/about/portfolio">Portfolio</Link>
+                       <a href="/about/portfolio">Portfolio</a>
                     </DropdownItem>
                 </div>
             </CSSTransition>
