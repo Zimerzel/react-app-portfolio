@@ -8,9 +8,9 @@ function NavItem(props){
     return(
       <>
         <li className="nav-item">
-          <Link to="#home" className="icon-button" onClick={() => setOpen(!open)}>
+          <a href="#home" className="icon-button" onClick={() => setOpen(!open)}>
             {props.icon}
-          </Link>
+          </a>
           {open && props.children}
         </li>
       </>
