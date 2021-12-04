@@ -99,24 +99,20 @@ return(
               </div>
               <div>
                 <h5>
-                  UT Gaming Reviews | <a href="https://github.com/ewebber283/utgr" target="_blank" rel="noreferrer" id="link">Github</a> | <a href="https://majestic-mammoth-cave-33282.herokuapp.com/dashboard" target="_blank" rel="noreferrer" id="link">Deployed</a>
+                  PPIHC | <a href="https://github.com/Zimerzel/Pikes-Peak-Hillclimb" target="_blank" rel="noreferrer" id="link">Github</a> | <a href="https://pikes-peak-329615.web.app/#/" target="_blank" rel="noreferrer" id="link">Deployed</a>
                 </h5>
                 <p>
-                  UTGR aims to bring people together through games, reguardless of location or restrictions.
+                  App built to inform and connect people to the pikes peak hill climb events
                 </p>
                 <h6>Made with:</h6>
                 <ul>
                   <li>HTML, </li>
                   <li>CSS, </li>
                   <li>JavaScript, </li>
-                  <li>Bcrypt, </li>
-                  <li>Express, </li>
-                  <li>Express-Handlebars, </li>
-                  <li>Express-Sessions, </li>
-                  <li>MySQL, </li>
-                  <li>Sequelize, </li>
+                  <li>Vue, </li>
+                  <li>Vue-Router, </li>
                   <li>Bootstrap, </li>
-                  <li>Dotenv </li>
+                  <li>Firebase </li>
                 </ul>
                 <br/>
                 <br/>

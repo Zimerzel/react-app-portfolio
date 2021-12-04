@@ -31,7 +31,7 @@ function App() {
       <Switch>
         <Route exact path='/' render= {() => (<Redirect to='/about'/>)} />
         <Route exact path='/about' component={About} />
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<div id="fallback">Loading...</div>}>
             <Route exact path='/about/portfolio' component={Portfolio} />
             <Route exact path='/about/resume' component={Resume} />
             <Route exact path='/contact' component={Contact} />
