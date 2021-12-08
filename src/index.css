@@ -548,12 +548,7 @@ text-align: center;
   .card {
     width: 300px;
   }
-  .form-group, .form-group-btn{
-    margin-left: -1vw;
-  }
-  .form{
-    width: 260px;
-  }
+
   .resume h3{
     font-size: 3.5vw;
   }
@@ -571,11 +566,6 @@ text-align: center;
   }
 }
 
-@media (min-width: 768px) and (max-width:1024){
-  .form{
-    width: 600px;
-  }
-}
 
 @media only screen and (min-width:1024px){
   footer{
