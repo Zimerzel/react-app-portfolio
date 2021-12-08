@@ -470,12 +470,8 @@ text-align: center;
   margin-right: auto;
 }
 
-.form-group-btn{
-  margin-left: 21.7vw;
-}
-
 .form-control {
-  width: 70%;
+  width: 90%;
   padding: 10px;
   resize: none;
 }
