@@ -75,4 +75,5 @@ Email : Zach.imerzel@gmail.com
 Github : https://github.com/Zimerzel
 
 ## Helpful Links
-* Hekou Deployment: https://zimerzel.herokuapp.com/
+* Firebase Deployment: https://zimerzelportfolio.web.app/about
+* Hekou Deployment: https://zimerzel.herokuapp.com/ (Firebase is now the main deploy, and will in time remove this heroku deployment)
