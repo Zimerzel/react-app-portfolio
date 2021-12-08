@@ -452,6 +452,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 text-align: center;
+margin-top: 10px;
 }
 
 .form{
@@ -460,7 +461,6 @@ text-align: center;
   padding: 20px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -200px;
 }
 
 .form-group{
